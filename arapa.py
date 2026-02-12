@@ -11,11 +11,12 @@ col1, col2 = st.columns(2)
 with col1:
     if st.button("cabrazo","paletón","gordo onicham"):
         st.success("AY QUE RICO UWUWUWUWWU WAAAAAAAEH OEEEH")
-        st.image("https://github.com/kacesi/arapa-v/blob/main/Screenshot_2025-02-26-00-19-46-399_com.whatsapp-edit.jpg")
+        st.image("arapa2.jpg")
 with col2:
     if st.button("Claro que no","es 100 por ciento hetero"):
         st.error("Di que si mrd waaehh")
-        st.image("https://github.com/kacesi/arapa-v/blob/main/IMG_20241015_195427_306.jpg", ":v")
+        st.image("arapa1.jpg", ":v")
+
 
 
 
