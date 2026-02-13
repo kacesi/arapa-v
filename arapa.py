@@ -2,6 +2,7 @@ import streamlit as st
 st.set_page_config(page_title="Privado beibi",page_icon="😎")
 st.title("Acceso restringido")
 clave_usuario = st.text_input("Introduce la clave jeje:", type ="password")
+
     if clave_usuario == "arapacabro":
     st.success("waaaeh")
 # Configuración para que el link se vea oficial en Instagram
@@ -24,6 +25,7 @@ if clave_usuario =="":
     st.info("Introduce la clave jeje:")
 else:
     st.error("Esa no es la contraseña papu")
+
 
 
 
