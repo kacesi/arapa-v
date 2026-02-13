@@ -20,10 +20,11 @@ with col2:
     if st.button("Claro que no","es 100 por ciento hetero"):
         st.error("Di que si mrd waaehh")
         st.image("arapa 1.jpg", ":v")
-elif clave_usuario =="":
+if clave_usuario =="":
     st.info("Introduce la clave jeje:")
 else:
     st.error("Esa no es la contraseña papu")
+
 
 
 
